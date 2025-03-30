@@ -1,0 +1,58 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 5px;
+  left: 300px;
+}
+
+.img-wrapper {
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.img-wrapper > div {
+  font-size: 4em;
+}
+
+article {
+  margin: 0 300px;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.foundaments > p {
+  margin-bottom: 10px;
+}
+
+.foundaments > p:nth-child(1) {
+  font-size: 25px;
+}
+
+#happinessChart {
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#happinessDiv .column tbody td {
+  margin-inline-start: 10px;
+  margin-inline-end: 20px;
+  box-shadow:
+    1px -1px 1px lightgrey,
+    2px -2px 1px lightgrey,
+    3px -3px 1px lightgrey,
+    4px -4px 1px lightgrey,
+    5px -5px 1px lightgrey,
+    6px -6px 1px lightgrey,
+    7px -7px 1px lightgrey,
+    8px -8px 1px lightgrey,
+    9px -9px 1px lightgrey,
+    10px -10px 1px lightgrey;
+}
