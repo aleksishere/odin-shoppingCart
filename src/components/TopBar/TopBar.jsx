@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import '../../index.css';
 import './TopBar.css';
+import '../../index.css';
 
 function TopBar() {
   return (
     <>
-      <nav className="inter-400">
-        <ul>
+      <nav className={`topbar-nav inter-400`}>
+        <ul className="topbar-ul">
         <li>Home</li>
         <li>Shop</li>
         </ul>  

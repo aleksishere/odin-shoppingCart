@@ -1,5 +1,7 @@
-import HomeContent from "./components/HomeContent/HomeContent.jsx"
+import React from 'react';
 import TopBar from "./components/TopBar/TopBar.jsx"
+import HomeContent from "./components/HomeContent/HomeContent.jsx"
+import Footer from "./components/Footer/Footer.jsx"
 
 function App() {
 
@@ -7,6 +9,7 @@ function App() {
     <>
       <TopBar />
       <HomeContent />
+      <Footer />
     </>
   )
 }
