@@ -3,6 +3,14 @@
   background-color: rgb(243, 243, 243);
 }
 
+.topbar-nav a {
+  text-decoration: none;
+}
+
+.topbar-nav a:visited, a:link {
+  color: inherit;
+}
+
 .topbar-ul {
   display: flex;
   gap: 4em;
